@@ -30,7 +30,7 @@ function formatearPesos(monto){
 function generarLinea(montoNeto,montoFinal,cantidad,descuento) {
 
     console.log("-------Monto Total-------");
-    console.log(`${ formatearPesos(montoNeto) } X ${cantidad} = $${formatearPesos(montoFinal)}`);
+    console.log(`${ formatearPesos(montoNeto) } X ${cantidad} = ${formatearPesos(montoFinal)}`);
     
     
 
@@ -40,6 +40,7 @@ procesarVenta(10000,1,10);
 
 
 /*
-agregar el % de descuento cuando sea >0 
-crear un metodo para pasarle un arreglo de precios y descuento
+1) agregar el % de descuento cuando sea >0 
+2) crear un metodo para pasarle un arreglo de 
+precios,cantidad y descuento
 */
